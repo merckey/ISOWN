@@ -12,11 +12,11 @@ my $cwd = dirname($0);
 
 # databases to annotate against to 
 my $REF="$cwd/../external_databases/hg19_random.fa";
-my $dbSNP_142="$cwd/../external_databases/dbSNP142_All_20141124.vcf.gz.modified.vcf.gz";
-my $COSMIC_69="$cwd/../external_databases/COSMIC_v69.vcf.gz";
-my $ExAC="$cwd/../external_databases/ExAC.r0.3.sites.vep.vcf.20150421.vcf.gz";
+my $dbSNP_142="$cwd/../external_databases/00-All.modified.vcf.gz";
+my $COSMIC_69="$cwd/../external_databases/COSMIC_v87.vcf.gz";
+my $ExAC="$cwd/../external_databases/ExAC.r0.3.1.database.vcf.gz";
 my $MA="$cwd/../external_databases/2013_12_11_MA.vcf.gz";
-my $POLYPHEN="$cwd/../external_databases/WHESS_20150403.txt.gz";
+my $POLYPHEN="$cwd/../external_databases/PolyPhen-WHESS.gz";
 
 sub usage {
 	print "\nUsage: " . basename($0) . " [ INPUT_VCF_FILE ] [ OUTPUT_VCF_FILE ]";
